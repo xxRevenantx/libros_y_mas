@@ -19,10 +19,18 @@ header {
     align-items: center;
 }
 
-.logo img {
+.logo a{
     height: 50px;
     /* margin-right: 10px; */
     margin: auto;
+    display: block;
+}
+
+.logo a img{
+    height: 50px;
+    /* margin-right: 10px; */
+    margin: auto;
+    display: block;
 }
 
 nav ul {
@@ -363,4 +371,6 @@ footer {
     .intro p {
         width: 100%;
     }
+
+   
 }
